@@ -17,7 +17,7 @@ const app = new Frog({
 app.frame("/", (c) => {
   return c.res({
     action: "/picker",
-    image: `${process.env.NEXT_PUBLIC_SITE_URL}/dogs.png`,
+    image: `${process.env.NEXT_PUBLIC_SITE_URL}/dogs.webp`,
     intents: [<Button value="A">A</Button>, <Button value="B">B</Button>],
   });
 });

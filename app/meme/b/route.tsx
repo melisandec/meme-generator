@@ -11,7 +11,7 @@ export async function GET(request: Request): Promise<ImageResponse> {
     const hasText = searchParams.has("text");
     const text = hasText ? searchParams.get("text")?.slice(0, 100) : "";
 
-    const imageData = await fetch(new URL("./b.png", import.meta.url)).then(
+    const imageData = await fetch(new URL("./b.webp", import.meta.url)).then(
       (res) => res.arrayBuffer()
     );
     return new ImageResponse(
