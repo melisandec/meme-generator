@@ -1,6 +1,6 @@
 ```
 Head to http://localhost:3000/api
-
+```
 # Meme Generator
 
 Welcome to the **Meme Generator** project! This application allows users to create custom memes by selecting between two images and adding personalized text. It is designed as a frame for Warpcast, utilizing Frog, Next.js, and Vercel for seamless deployment and performance.
